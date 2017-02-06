@@ -14,6 +14,11 @@
 		3CF847111E48A2FC006955F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF847101E48A2FC006955F8 /* Assets.xcassets */; };
 		3CF847141E48A2FC006955F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF847121E48A2FC006955F8 /* LaunchScreen.storyboard */; };
 		3CF8471F1E48A2FC006955F8 /* RibotChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8471E1E48A2FC006955F8 /* RibotChallengeTests.swift */; };
+		3CF847371E48A53B006955F8 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF8472E1E48A53B006955F8 /* Model.framework */; };
+		3CF8473E1E48A53B006955F8 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8473D1E48A53B006955F8 /* ModelTests.swift */; };
+		3CF847401E48A53B006955F8 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF847301E48A53B006955F8 /* Model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CF847431E48A53B006955F8 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF8472E1E48A53B006955F8 /* Model.framework */; };
+		3CF847441E48A53B006955F8 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF8472E1E48A53B006955F8 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +29,42 @@
 			remoteGlobalIDString = 3CF847031E48A2FC006955F8;
 			remoteInfo = RibotChallenge;
 		};
+		3CF847381E48A53B006955F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF846FC1E48A2FC006955F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF8472D1E48A53B006955F8;
+			remoteInfo = Model;
+		};
+		3CF8473A1E48A53B006955F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF846FC1E48A2FC006955F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF847031E48A2FC006955F8;
+			remoteInfo = RibotChallenge;
+		};
+		3CF847411E48A53B006955F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF846FC1E48A2FC006955F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF8472D1E48A53B006955F8;
+			remoteInfo = Model;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CF847481E48A53B006955F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3CF847441E48A53B006955F8 /* Model.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3CF847041E48A2FC006955F8 /* RibotChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibotChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +78,12 @@
 		3CF8471A1E48A2FC006955F8 /* RibotChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibotChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF8471E1E48A2FC006955F8 /* RibotChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibotChallengeTests.swift; sourceTree = "<group>"; };
 		3CF847201E48A2FC006955F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF8472E1E48A53B006955F8 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF847301E48A53B006955F8 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		3CF847311E48A53B006955F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF847361E48A53B006955F8 /* ModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF8473D1E48A53B006955F8 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		3CF8473F1E48A53B006955F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF847431E48A53B006955F8 /* Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +99,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF8472A1E48A53B006955F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF847331E48A53B006955F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF847371E48A53B006955F8 /* Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +125,8 @@
 			children = (
 				3CF847061E48A2FC006955F8 /* RibotChallenge */,
 				3CF8471D1E48A2FC006955F8 /* RibotChallengeTests */,
+				3CF8472F1E48A53B006955F8 /* Model */,
+				3CF8473C1E48A53B006955F8 /* ModelTests */,
 				3CF847051E48A2FC006955F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +136,8 @@
 			children = (
 				3CF847041E48A2FC006955F8 /* RibotChallenge.app */,
 				3CF8471A1E48A2FC006955F8 /* RibotChallengeTests.xctest */,
+				3CF8472E1E48A53B006955F8 /* Model.framework */,
+				3CF847361E48A53B006955F8 /* ModelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +165,36 @@
 			path = RibotChallengeTests;
 			sourceTree = "<group>";
 		};
+		3CF8472F1E48A53B006955F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CF847301E48A53B006955F8 /* Model.h */,
+				3CF847311E48A53B006955F8 /* Info.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CF8473C1E48A53B006955F8 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8473D1E48A53B006955F8 /* ModelTests.swift */,
+				3CF8473F1E48A53B006955F8 /* Info.plist */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CF8472B1E48A53B006955F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF847401E48A53B006955F8 /* Model.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3CF847031E48A2FC006955F8 /* RibotChallenge */ = {
@@ -109,10 +204,12 @@
 				3CF847001E48A2FC006955F8 /* Sources */,
 				3CF847011E48A2FC006955F8 /* Frameworks */,
 				3CF847021E48A2FC006955F8 /* Resources */,
+				3CF847481E48A53B006955F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3CF847421E48A53B006955F8 /* PBXTargetDependency */,
 			);
 			name = RibotChallenge;
 			productName = RibotChallenge;
@@ -137,6 +234,43 @@
 			productReference = 3CF8471A1E48A2FC006955F8 /* RibotChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		3CF8472D1E48A53B006955F8 /* Model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF847451E48A53B006955F8 /* Build configuration list for PBXNativeTarget "Model" */;
+			buildPhases = (
+				3CF847291E48A53B006955F8 /* Sources */,
+				3CF8472A1E48A53B006955F8 /* Frameworks */,
+				3CF8472B1E48A53B006955F8 /* Headers */,
+				3CF8472C1E48A53B006955F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Model;
+			productName = Model;
+			productReference = 3CF8472E1E48A53B006955F8 /* Model.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CF847351E48A53B006955F8 /* ModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF847491E48A53B006955F8 /* Build configuration list for PBXNativeTarget "ModelTests" */;
+			buildPhases = (
+				3CF847321E48A53B006955F8 /* Sources */,
+				3CF847331E48A53B006955F8 /* Frameworks */,
+				3CF847341E48A53B006955F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF847391E48A53B006955F8 /* PBXTargetDependency */,
+				3CF8473B1E48A53B006955F8 /* PBXTargetDependency */,
+			);
+			name = ModelTests;
+			productName = ModelTests;
+			productReference = 3CF847361E48A53B006955F8 /* ModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +287,17 @@
 						ProvisioningStyle = Automatic;
 					};
 					3CF847191E48A2FC006955F8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N8N37QWHHP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CF847031E48A2FC006955F8;
+					};
+					3CF8472D1E48A53B006955F8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N8N37QWHHP;
+						ProvisioningStyle = Automatic;
+					};
+					3CF847351E48A53B006955F8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N8N37QWHHP;
 						ProvisioningStyle = Automatic;
@@ -175,6 +320,8 @@
 			targets = (
 				3CF847031E48A2FC006955F8 /* RibotChallenge */,
 				3CF847191E48A2FC006955F8 /* RibotChallengeTests */,
+				3CF8472D1E48A53B006955F8 /* Model */,
+				3CF847351E48A53B006955F8 /* ModelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +338,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3CF847181E48A2FC006955F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF8472C1E48A53B006955F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF847341E48A53B006955F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,6 +379,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CF847291E48A53B006955F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF847321E48A53B006955F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF8473E1E48A53B006955F8 /* ModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -225,6 +401,21 @@
 			isa = PBXTargetDependency;
 			target = 3CF847031E48A2FC006955F8 /* RibotChallenge */;
 			targetProxy = 3CF8471B1E48A2FC006955F8 /* PBXContainerItemProxy */;
+		};
+		3CF847391E48A53B006955F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF8472D1E48A53B006955F8 /* Model */;
+			targetProxy = 3CF847381E48A53B006955F8 /* PBXContainerItemProxy */;
+		};
+		3CF8473B1E48A53B006955F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF847031E48A2FC006955F8 /* RibotChallenge */;
+			targetProxy = 3CF8473A1E48A53B006955F8 /* PBXContainerItemProxy */;
+		};
+		3CF847421E48A53B006955F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF8472D1E48A53B006955F8 /* Model */;
+			targetProxy = 3CF847411E48A53B006955F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -397,6 +588,78 @@
 			};
 			name = Release;
 		};
+		3CF847461E48A53B006955F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N8N37QWHHP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Model/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iandundas.ribots.Model;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CF847471E48A53B006955F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N8N37QWHHP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Model/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iandundas.ribots.Model;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CF8474A1E48A53B006955F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N8N37QWHHP;
+				INFOPLIST_FILE = ModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iandundas.ribots.ModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RibotChallenge.app/RibotChallenge";
+			};
+			name = Debug;
+		};
+		3CF8474B1E48A53B006955F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N8N37QWHHP;
+				INFOPLIST_FILE = ModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iandundas.ribots.ModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RibotChallenge.app/RibotChallenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,6 +685,22 @@
 			buildConfigurations = (
 				3CF847271E48A2FC006955F8 /* Debug */,
 				3CF847281E48A2FC006955F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CF847451E48A53B006955F8 /* Build configuration list for PBXNativeTarget "Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF847461E48A53B006955F8 /* Debug */,
+				3CF847471E48A53B006955F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CF847491E48A53B006955F8 /* Build configuration list for PBXNativeTarget "ModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF8474A1E48A53B006955F8 /* Debug */,
+				3CF8474B1E48A53B006955F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
