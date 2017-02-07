@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Network.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>RibotChallenge.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3C05D5E41E4A7C1A000ACEE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3CF847031E48A2FC006955F8</key>
 		<dict>
 			<key>primary</key>

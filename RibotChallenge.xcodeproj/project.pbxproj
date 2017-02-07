@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C05D5E91E4A7C1A000ACEE2 /* Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C05D5E71E4A7C1A000ACEE2 /* Network.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C05D5EC1E4A7C1A000ACEE2 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05D5E51E4A7C1A000ACEE2 /* Network.framework */; };
+		3C05D5ED1E4A7C1A000ACEE2 /* Network.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05D5E51E4A7C1A000ACEE2 /* Network.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C05D5F31E4A7C66000ACEE2 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05D5F11E4A7C66000ACEE2 /* Bond.framework */; };
+		3C05D5F41E4A7C66000ACEE2 /* Bond.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05D5F11E4A7C66000ACEE2 /* Bond.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C05D5F51E4A7C66000ACEE2 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05D5F21E4A7C66000ACEE2 /* ReactiveKit.framework */; };
+		3C05D5F61E4A7C66000ACEE2 /* ReactiveKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05D5F21E4A7C66000ACEE2 /* ReactiveKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C05D5F81E4A7C78000ACEE2 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05D5F21E4A7C66000ACEE2 /* ReactiveKit.framework */; };
+		3C05D5F91E4A7C78000ACEE2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF847511E48AAE3006955F8 /* Realm.framework */; };
+		3C05D5FA1E4A7C78000ACEE2 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF847521E48AAE3006955F8 /* RealmSwift.framework */; };
 		3CF847081E48A2FC006955F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF847071E48A2FC006955F8 /* AppDelegate.swift */; };
 		3CF8470A1E48A2FC006955F8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF847091E48A2FC006955F8 /* MasterViewController.swift */; };
 		3CF8470C1E48A2FC006955F8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8470B1E48A2FC006955F8 /* DetailViewController.swift */; };
@@ -19,9 +29,23 @@
 		3CF847401E48A53B006955F8 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF847301E48A53B006955F8 /* Model.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CF847431E48A53B006955F8 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF8472E1E48A53B006955F8 /* Model.framework */; };
 		3CF847441E48A53B006955F8 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF8472E1E48A53B006955F8 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3CF8474F1E48A625006955F8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8474E1E48A625006955F8 /* Profile.swift */; };
+		3CF847531E48AAE3006955F8 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF847511E48AAE3006955F8 /* Realm.framework */; };
+		3CF847541E48AAE3006955F8 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF847521E48AAE3006955F8 /* RealmSwift.framework */; };
+		3CF847551E48B00A006955F8 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF847511E48AAE3006955F8 /* Realm.framework */; };
+		3CF847561E48B00A006955F8 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF847521E48AAE3006955F8 /* RealmSwift.framework */; };
+		3CF847571E48B01B006955F8 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF847511E48AAE3006955F8 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3CF847581E48B01B006955F8 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF847521E48AAE3006955F8 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3C05D5EA1E4A7C1A000ACEE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF846FC1E48A2FC006955F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C05D5E41E4A7C1A000ACEE2;
+			remoteInfo = Network;
+		};
 		3CF8471B1E48A2FC006955F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3CF846FC1E48A2FC006955F8 /* Project object */;
@@ -60,6 +84,11 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3CF847441E48A53B006955F8 /* Model.framework in Embed Frameworks */,
+				3CF847571E48B01B006955F8 /* Realm.framework in Embed Frameworks */,
+				3CF847581E48B01B006955F8 /* RealmSwift.framework in Embed Frameworks */,
+				3C05D5ED1E4A7C1A000ACEE2 /* Network.framework in Embed Frameworks */,
+				3C05D5F61E4A7C66000ACEE2 /* ReactiveKit.framework in Embed Frameworks */,
+				3C05D5F41E4A7C66000ACEE2 /* Bond.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +96,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C05D5E51E4A7C1A000ACEE2 /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C05D5E71E4A7C1A000ACEE2 /* Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		3C05D5E81E4A7C1A000ACEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C05D5F11E4A7C66000ACEE2 /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
+		3C05D5F21E4A7C66000ACEE2 /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/iOS/ReactiveKit.framework; sourceTree = "<group>"; };
 		3CF847041E48A2FC006955F8 /* RibotChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibotChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF847071E48A2FC006955F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF847091E48A2FC006955F8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -84,14 +118,32 @@
 		3CF847361E48A53B006955F8 /* ModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF8473D1E48A53B006955F8 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
 		3CF8473F1E48A53B006955F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF8474E1E48A625006955F8 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		3CF847511E48AAE3006955F8 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		3CF847521E48AAE3006955F8 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3C05D5E11E4A7C1A000ACEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C05D5F81E4A7C78000ACEE2 /* ReactiveKit.framework in Frameworks */,
+				3C05D5F91E4A7C78000ACEE2 /* Realm.framework in Frameworks */,
+				3C05D5FA1E4A7C78000ACEE2 /* RealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CF847011E48A2FC006955F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3CF847431E48A53B006955F8 /* Model.framework in Frameworks */,
+				3CF847551E48B00A006955F8 /* Realm.framework in Frameworks */,
+				3CF847561E48B00A006955F8 /* RealmSwift.framework in Frameworks */,
+				3C05D5EC1E4A7C1A000ACEE2 /* Network.framework in Frameworks */,
+				3C05D5F51E4A7C66000ACEE2 /* ReactiveKit.framework in Frameworks */,
+				3C05D5F31E4A7C66000ACEE2 /* Bond.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +158,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF847531E48AAE3006955F8 /* Realm.framework in Frameworks */,
+				3CF847541E48AAE3006955F8 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +174,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C05D5E61E4A7C1A000ACEE2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3C05D5E71E4A7C1A000ACEE2 /* Network.h */,
+				3C05D5E81E4A7C1A000ACEE2 /* Info.plist */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		3CF846FB1E48A2FC006955F8 = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +190,9 @@
 				3CF8471D1E48A2FC006955F8 /* RibotChallengeTests */,
 				3CF8472F1E48A53B006955F8 /* Model */,
 				3CF8473C1E48A53B006955F8 /* ModelTests */,
+				3C05D5E61E4A7C1A000ACEE2 /* Network */,
 				3CF847051E48A2FC006955F8 /* Products */,
+				3CF847501E48AAE3006955F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +203,7 @@
 				3CF8471A1E48A2FC006955F8 /* RibotChallengeTests.xctest */,
 				3CF8472E1E48A53B006955F8 /* Model.framework */,
 				3CF847361E48A53B006955F8 /* ModelTests.xctest */,
+				3C05D5E51E4A7C1A000ACEE2 /* Network.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,8 +234,8 @@
 		3CF8472F1E48A53B006955F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3CF847301E48A53B006955F8 /* Model.h */,
-				3CF847311E48A53B006955F8 /* Info.plist */,
+				3CF8474D1E48A60D006955F8 /* Classes */,
+				3CF8474C1E48A603006955F8 /* Supporting Files */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,9 +249,45 @@
 			path = ModelTests;
 			sourceTree = "<group>";
 		};
+		3CF8474C1E48A603006955F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF847301E48A53B006955F8 /* Model.h */,
+				3CF847311E48A53B006955F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CF8474D1E48A60D006955F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8474E1E48A625006955F8 /* Profile.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3CF847501E48AAE3006955F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C05D5F11E4A7C66000ACEE2 /* Bond.framework */,
+				3C05D5F21E4A7C66000ACEE2 /* ReactiveKit.framework */,
+				3CF847511E48AAE3006955F8 /* Realm.framework */,
+				3CF847521E48AAE3006955F8 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3C05D5E21E4A7C1A000ACEE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C05D5E91E4A7C1A000ACEE2 /* Network.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CF8472B1E48A53B006955F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,6 +299,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3C05D5E41E4A7C1A000ACEE2 /* Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C05D5F01E4A7C1A000ACEE2 /* Build configuration list for PBXNativeTarget "Network" */;
+			buildPhases = (
+				3C05D5E01E4A7C1A000ACEE2 /* Sources */,
+				3C05D5E11E4A7C1A000ACEE2 /* Frameworks */,
+				3C05D5E21E4A7C1A000ACEE2 /* Headers */,
+				3C05D5E31E4A7C1A000ACEE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Network;
+			productName = Network;
+			productReference = 3C05D5E51E4A7C1A000ACEE2 /* Network.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3CF847031E48A2FC006955F8 /* RibotChallenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CF847231E48A2FC006955F8 /* Build configuration list for PBXNativeTarget "RibotChallenge" */;
@@ -205,11 +325,13 @@
 				3CF847011E48A2FC006955F8 /* Frameworks */,
 				3CF847021E48A2FC006955F8 /* Resources */,
 				3CF847481E48A53B006955F8 /* Embed Frameworks */,
+				3CF8475A1E48B03B006955F8 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				3CF847421E48A53B006955F8 /* PBXTargetDependency */,
+				3C05D5EB1E4A7C1A000ACEE2 /* PBXTargetDependency */,
 			);
 			name = RibotChallenge;
 			productName = RibotChallenge;
@@ -281,6 +403,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Ian Dundas";
 				TargetAttributes = {
+					3C05D5E41E4A7C1A000ACEE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N8N37QWHHP;
+						ProvisioningStyle = Automatic;
+					};
 					3CF847031E48A2FC006955F8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N8N37QWHHP;
@@ -295,6 +422,7 @@
 					3CF8472D1E48A53B006955F8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N8N37QWHHP;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					3CF847351E48A53B006955F8 = {
@@ -322,11 +450,19 @@
 				3CF847191E48A2FC006955F8 /* RibotChallengeTests */,
 				3CF8472D1E48A53B006955F8 /* Model */,
 				3CF847351E48A53B006955F8 /* ModelTests */,
+				3C05D5E41E4A7C1A000ACEE2 /* Network */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3C05D5E31E4A7C1A000ACEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CF847021E48A2FC006955F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,7 +496,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CF8475A1E48B03B006955F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		3C05D5E01E4A7C1A000ACEE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CF847001E48A2FC006955F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,6 +544,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF8474F1E48A625006955F8 /* Profile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +559,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3C05D5EB1E4A7C1A000ACEE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C05D5E41E4A7C1A000ACEE2 /* Network */;
+			targetProxy = 3C05D5EA1E4A7C1A000ACEE2 /* PBXContainerItemProxy */;
+		};
 		3CF8471C1E48A2FC006955F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3CF847031E48A2FC006955F8 /* RibotChallenge */;
@@ -439,6 +606,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3C05D5EE1E4A7C1A000ACEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N8N37QWHHP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Network/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iandundas.Network;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C05D5EF1E4A7C1A000ACEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N8N37QWHHP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Network/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iandundas.Network;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3CF847211E48A2FC006955F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -535,8 +754,13 @@
 		3CF847241E48A2FC006955F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N8N37QWHHP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RibotChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iandundas.RibotChallenge;
@@ -548,8 +772,13 @@
 		3CF847251E48A2FC006955F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N8N37QWHHP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RibotChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iandundas.RibotChallenge;
@@ -591,6 +820,7 @@
 		3CF847461E48A53B006955F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -598,12 +828,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Model/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iandundas.ribots.Model;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -613,6 +848,7 @@
 		3CF847471E48A53B006955F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -620,6 +856,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Model/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -663,6 +903,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3C05D5F01E4A7C1A000ACEE2 /* Build configuration list for PBXNativeTarget "Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C05D5EE1E4A7C1A000ACEE2 /* Debug */,
+				3C05D5EF1E4A7C1A000ACEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		3CF846FF1E48A2FC006955F8 /* Build configuration list for PBXProject "RibotChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -679,6 +927,7 @@
 				3CF847251E48A2FC006955F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF847261E48A2FC006955F8 /* Build configuration list for PBXNativeTarget "RibotChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -687,6 +936,7 @@
 				3CF847281E48A2FC006955F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF847451E48A53B006955F8 /* Build configuration list for PBXNativeTarget "Model" */ = {
 			isa = XCConfigurationList;
@@ -695,6 +945,7 @@
 				3CF847471E48A53B006955F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF847491E48A53B006955F8 /* Build configuration list for PBXNativeTarget "ModelTests" */ = {
 			isa = XCConfigurationList;
@@ -703,6 +954,7 @@
 				3CF8474B1E48A53B006955F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
