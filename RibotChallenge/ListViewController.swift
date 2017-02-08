@@ -40,6 +40,8 @@ public class ListViewController: BaseBoundViewController<ListViewModelType>, UIT
     // MARK: Binding
     override internal func bindTo(viewModel: ListViewModelType) {
      
+        title = viewModel.title
+        
         if let noticable = viewModel as? UserNoticeable{
             noticable.errors.bind(to: self, setter: { (me, errorMessage) in
                 me.displayError(errorMessage: errorMessage)
