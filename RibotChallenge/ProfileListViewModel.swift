@@ -9,7 +9,6 @@
 import Foundation
 import ReactiveKit
 import RealmSwift
-import Model
 import Diff
 
 

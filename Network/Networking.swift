@@ -8,7 +8,6 @@
 
 import UIKit
 import ReactiveKit
-import Model
 
 typealias JSONDictionary = [String: AnyObject]
 typealias JSONArray = [JSONDictionary]

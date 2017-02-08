@@ -9,7 +9,6 @@
 import UIKit
 import ReactiveKit
 import RealmSwift
-import Model
 
 class ProfilesCoordinator: NSObject, Coordinator{
     
