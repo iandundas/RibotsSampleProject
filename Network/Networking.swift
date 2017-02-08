@@ -95,7 +95,7 @@ func fetchProfiles() -> Signal<[Profile], String> {
                 
                 // Add optional fields:
                 profileModel.bio = profileData["bio"] as? String
-                profileModel.avatarURL = profileData["avatar"] as? String
+                profileModel.avatar = profileData["avatar"] as? String
                 
                 return profileModel
             }
@@ -104,5 +104,26 @@ func fetchProfiles() -> Signal<[Profile], String> {
             return Signal.just(profileModels.flatMap{$0})
         }
         return signal
+}
+
+// For the purposes of an sample project this is okay, but shouldn't be used in production (linear memory growth, never empties)
+var imageCache: [String: UIImage] = [:]
+
+func fetchImage(url: URL) -> Signal<UIImage, String> {
+    // If image is in the cache already, return it immediately:
+    if let cacheHit = imageCache[url.relativeString] {
+        return Signal.just(cacheHit)
+    }
+    else {
+        // Fetch the image:
+        return getData(url: url).flatMapLatest { (imageData) -> Signal<UIImage, String> in
+            guard let image = UIImage(data: imageData) else { return Signal.failed("Data was not a valid image") }
+            return Signal.just(image)
+        }
+        .doOn(next: { (image: UIImage) in
+            // Add it to the cache:
+            imageCache[url.relativeString] = image
+        })
+    }
 }
 

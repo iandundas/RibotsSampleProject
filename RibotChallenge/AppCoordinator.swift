@@ -32,7 +32,7 @@ class AppCoordinator: NSObject, Coordinator{
         Style.applyGlobal()
         
         DispatchQueue.main.async {
-            let mainFlow = AccountsCoordinator(presenter: self.presenter)
+            let mainFlow = ProfilesCoordinator(presenter: self.presenter)
             _ = self.startChild(coordinator: mainFlow) { (mainFlow) in
                 //
             }
