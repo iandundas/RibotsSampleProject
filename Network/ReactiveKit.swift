@@ -9,4 +9,5 @@
 import Foundation
 import ReactiveKit
 
+// Make String conform to ErrorType for easy Signals
 extension String: Error{}

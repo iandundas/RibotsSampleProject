@@ -16,10 +16,12 @@
 		3C05D60A1E4A81AB000ACEE2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8474E1E48A625006955F8 /* Profile.swift */; };
 		3C05D60C1E4A834A000ACEE2 /* Diff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05D60B1E4A834A000ACEE2 /* Diff.framework */; };
 		3C05D60D1E4A834A000ACEE2 /* Diff.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05D60B1E4A834A000ACEE2 /* Diff.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C9A10AF1E4B57FA006E77D3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A10AE1E4B57FA006E77D3 /* Coordinator.swift */; };
+		3C9A10B41E4B5931006E77D3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A10B21E4B5931006E77D3 /* AppCoordinator.swift */; };
+		3C9A10B51E4B5931006E77D3 /* AccountsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A10B31E4B5931006E77D3 /* AccountsCoordinator.swift */; };
+		3C9A10B81E4B5977006E77D3 /* Apperance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A10B71E4B5977006E77D3 /* Apperance.swift */; };
+		3C9A10BA1E4B5A03006E77D3 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A10B91E4B5A03006E77D3 /* Realm.swift */; };
 		3CF847081E48A2FC006955F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF847071E48A2FC006955F8 /* AppDelegate.swift */; };
-		3CF8470A1E48A2FC006955F8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF847091E48A2FC006955F8 /* MasterViewController.swift */; };
-		3CF8470C1E48A2FC006955F8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8470B1E48A2FC006955F8 /* DetailViewController.swift */; };
-		3CF8470F1E48A2FC006955F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8470D1E48A2FC006955F8 /* Main.storyboard */; };
 		3CF847111E48A2FC006955F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF847101E48A2FC006955F8 /* Assets.xcassets */; };
 		3CF847141E48A2FC006955F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF847121E48A2FC006955F8 /* LaunchScreen.storyboard */; };
 		3CF8471F1E48A2FC006955F8 /* RibotChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8471E1E48A2FC006955F8 /* RibotChallengeTests.swift */; };
@@ -63,11 +65,13 @@
 		3C05D5FD1E4A7CD6000ACEE2 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = ../Network/Networking.swift; sourceTree = "<group>"; };
 		3C05D6021E4A7E59000ACEE2 /* ReactiveKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactiveKit.swift; path = ../Network/ReactiveKit.swift; sourceTree = "<group>"; };
 		3C05D60B1E4A834A000ACEE2 /* Diff.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Diff.framework; path = Carthage/Build/iOS/Diff.framework; sourceTree = "<group>"; };
+		3C9A10AE1E4B57FA006E77D3 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3C9A10B21E4B5931006E77D3 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		3C9A10B31E4B5931006E77D3 /* AccountsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsCoordinator.swift; sourceTree = "<group>"; };
+		3C9A10B71E4B5977006E77D3 /* Apperance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apperance.swift; sourceTree = "<group>"; };
+		3C9A10B91E4B5A03006E77D3 /* Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		3CF847041E48A2FC006955F8 /* RibotChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibotChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF847071E48A2FC006955F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CF847091E48A2FC006955F8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		3CF8470B1E48A2FC006955F8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		3CF8470E1E48A2FC006955F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CF847101E48A2FC006955F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF847131E48A2FC006955F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CF847151E48A2FC006955F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				3CF8474E1E48A625006955F8 /* Profile.swift */,
+				3C9A10B91E4B5A03006E77D3 /* Realm.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -130,12 +135,36 @@
 			isa = PBXGroup;
 			children = (
 				3CF847071E48A2FC006955F8 /* AppDelegate.swift */,
-				3CF8470D1E48A2FC006955F8 /* Main.storyboard */,
 				3CF847101E48A2FC006955F8 /* Assets.xcassets */,
 				3CF847121E48A2FC006955F8 /* LaunchScreen.storyboard */,
 				3CF847151E48A2FC006955F8 /* Info.plist */,
 			);
 			name = Extras;
+			sourceTree = "<group>";
+		};
+		3C9A10B01E4B590B006E77D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3C9A10B11E4B5913006E77D3 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				3C9A10B21E4B5931006E77D3 /* AppCoordinator.swift */,
+				3C9A10B31E4B5931006E77D3 /* AccountsCoordinator.swift */,
+				3C9A10AE1E4B57FA006E77D3 /* Coordinator.swift */,
+			);
+			name = Coordinators;
+			sourceTree = "<group>";
+		};
+		3C9A10B61E4B596E006E77D3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3C9A10B71E4B5977006E77D3 /* Apperance.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 		3CF846FB1E48A2FC006955F8 = {
@@ -160,12 +189,13 @@
 		3CF847061E48A2FC006955F8 /* RibotChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				3C05D6071E4A7EB0000ACEE2 /* Extras */,
-				3C05D6061E4A7EA2000ACEE2 /* Network */,
+				3C9A10B61E4B596E006E77D3 /* UI */,
+				3C9A10B11E4B5913006E77D3 /* Coordinators */,
+				3C9A10B01E4B590B006E77D3 /* ViewControllers */,
 				3C05D6051E4A7E9D000ACEE2 /* Extensions */,
+				3C05D6071E4A7EB0000ACEE2 /* Extras */,
 				3C05D6041E4A7E95000ACEE2 /* Model */,
-				3CF847091E48A2FC006955F8 /* MasterViewController.swift */,
-				3CF8470B1E48A2FC006955F8 /* DetailViewController.swift */,
+				3C05D6061E4A7EA2000ACEE2 /* Network */,
 			);
 			path = RibotChallenge;
 			sourceTree = "<group>";
@@ -280,7 +310,6 @@
 			files = (
 				3CF847141E48A2FC006955F8 /* LaunchScreen.storyboard in Resources */,
 				3CF847111E48A2FC006955F8 /* Assets.xcassets in Resources */,
-				3CF8470F1E48A2FC006955F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,12 +348,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF8470C1E48A2FC006955F8 /* DetailViewController.swift in Sources */,
+				3C9A10B41E4B5931006E77D3 /* AppCoordinator.swift in Sources */,
+				3C9A10B81E4B5977006E77D3 /* Apperance.swift in Sources */,
 				3C05D60A1E4A81AB000ACEE2 /* Profile.swift in Sources */,
-				3CF8470A1E48A2FC006955F8 /* MasterViewController.swift in Sources */,
 				3CF847081E48A2FC006955F8 /* AppDelegate.swift in Sources */,
 				3C05D6081E4A81AB000ACEE2 /* Networking.swift in Sources */,
 				3C05D6091E4A81AB000ACEE2 /* ReactiveKit.swift in Sources */,
+				3C9A10B51E4B5931006E77D3 /* AccountsCoordinator.swift in Sources */,
+				3C9A10AF1E4B57FA006E77D3 /* Coordinator.swift in Sources */,
+				3C9A10BA1E4B5A03006E77D3 /* Realm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3CF8470D1E48A2FC006955F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3CF8470E1E48A2FC006955F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3CF847121E48A2FC006955F8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
