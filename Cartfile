@@ -1,0 +1,4 @@
+github "realm/realm-cocoa" ~> 2.4
+github "ReactiveKit/ReactiveKit" ~> 3.3
+github "ReactiveKit/Bond" ~> 6.0
+github "thoughtbot/Argo"

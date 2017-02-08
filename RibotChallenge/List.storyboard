@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xCo-Xx-bTe">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--List View Controller-->
+        <scene sceneID="fMu-SQ-CV1">
+            <objects>
+                <viewController id="xCo-Xx-bTe" customClass="ListViewController" customModule="RibotChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iuL-2y-h22"/>
+                        <viewControllerLayoutGuide type="bottom" id="rtq-jt-vPK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Flh-fK-frA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IHu-uz-LGB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ProfileCell" rowHeight="80" id="WK9-RK-ywn" customClass="ProfileCell" customModule="RibotChallenge" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WK9-RK-ywn" id="ZBb-oY-6J8">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jpx-H4-ZLh">
+                                                    <rect key="frame" x="16" y="28" width="46" height="24"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Jpx-H4-ZLh" secondAttribute="trailing" constant="8" id="8DU-wj-GjY"/>
+                                                <constraint firstItem="Jpx-H4-ZLh" firstAttribute="centerY" secondItem="ZBb-oY-6J8" secondAttribute="centerY" id="ZcL-en-7Mx"/>
+                                                <constraint firstItem="Jpx-H4-ZLh" firstAttribute="leading" secondItem="ZBb-oY-6J8" secondAttribute="leadingMargin" constant="8" id="kWn-gH-7fG"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="name" destination="Jpx-H4-ZLh" id="lYj-Jp-ExX"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IHu-uz-LGB" firstAttribute="leading" secondItem="Flh-fK-frA" secondAttribute="leading" id="FXN-9H-bGu"/>
+                            <constraint firstAttribute="trailing" secondItem="IHu-uz-LGB" secondAttribute="trailing" id="Fy3-zj-dCU"/>
+                            <constraint firstItem="IHu-uz-LGB" firstAttribute="top" secondItem="Flh-fK-frA" secondAttribute="topMargin" id="Ij3-Nc-Gc7"/>
+                            <constraint firstItem="rtq-jt-vPK" firstAttribute="top" secondItem="IHu-uz-LGB" secondAttribute="bottom" id="l9a-B4-Pjt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="IHu-uz-LGB" id="2qu-4l-aCH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ifi-O1-EkJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-232.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

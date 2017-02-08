@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>RibotChallenge.xcscheme</key>
+		<key>RibotChallenge.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3C05D5E41E4A7C1A000ACEE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3CF847031E48A2FC006955F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>3CF847191E48A2FC006955F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CF8472D1E48A53B006955F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CF847351E48A53B006955F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
