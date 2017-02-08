@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZMo-jZ-HYd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="Js5-8R-R3g">
+            <objects>
+                <viewController id="ZMo-jZ-HYd" customClass="ProfileViewController" customModule="RibotChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vgN-BN-MYI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Toy-Ks-7Zu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qU9-pr-kAy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="YR0-TD-IVD">
+                                <rect key="frame" x="16" y="0.0" width="343" height="61"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aob-2B-o93">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ty-DL-lGj" userLabel="Bio">
+                                        <rect key="frame" x="0.0" y="40.5" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YR0-TD-IVD" firstAttribute="leading" secondItem="qU9-pr-kAy" secondAttribute="leading" constant="16" id="Etq-pE-KAt"/>
+                            <constraint firstItem="YR0-TD-IVD" firstAttribute="top" secondItem="qU9-pr-kAy" secondAttribute="topMargin" id="Ets-Qh-P11"/>
+                            <constraint firstAttribute="trailing" secondItem="YR0-TD-IVD" secondAttribute="trailing" constant="16" id="R3S-ol-oCa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bio" destination="2Ty-DL-lGj" id="qtr-xg-zeX"/>
+                        <outlet property="email" destination="Aob-2B-o93" id="sVa-RT-9uL"/>
+                        <outlet property="stackView" destination="YR0-TD-IVD" id="Qde-NE-uPt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3eo-wY-NQL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="-142"/>
+        </scene>
+    </scenes>
+</document>
